@@ -65,7 +65,3 @@ deploy:
   type: git
   repository: https://github.com/JackNoire/jacknoire.github.io.git
   branch: master
-backup:
-  type: git
-  theme: icarus
-  repository: https://github.com/JackNoire/jacknoire.github.io.git,backup

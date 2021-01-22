@@ -65,3 +65,5 @@ deploy:
   type: git
   repository: https://github.com/JackNoire/jacknoire.github.io.git
   branch: master
+marked:
+  smartypants: false

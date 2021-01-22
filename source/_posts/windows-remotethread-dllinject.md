@@ -198,7 +198,7 @@ int main(int argc, char **argv) {
 }
 ```
 
-首先，打开记事本，然后在任务管理器的”详细信息“这一栏找到notepad.exe的pid，比如pid为5908。
+首先，打开记事本，然后在任务管理器的“详细信息”这一栏找到notepad.exe的pid，比如pid为5908。
 
 假设上述代码被编译成了injectdll.exe，接下来，执行`injectdll 5908`，便能看到记事本的弹窗了：
 

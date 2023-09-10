@@ -166,7 +166,7 @@ sidebar:
     # Left sidebar configurations
     left:
         # Whether the sidebar sticks to the top when page scrolls
-        sticky: true
+        sticky: false
     # Right sidebar configurations
     right:
         # Whether the sidebar sticks to the top when page scrolls
@@ -182,7 +182,7 @@ widgets:
         # Author name
         author: JackNoire
         # Author title
-        author_title: WHU Undergraduate
+        author_title: WHU Master's Student
         # Author's current location
         location: Wuhan, China
         # URL or path to the avatar image
@@ -258,17 +258,17 @@ plugins:
         web_id: 
     # Alerting users about the use of cookies
     # https://www.osano.com/cookieconsent/
-    cookie_consent:
-        # The compliance type. Can be "info", "opt-in", or "opt-out"
-        type: info
-        # Theme of the popup. Can be "block", "edgeless", or "classic"
-        theme: edgeless
-        # Whether the popup should stay static regardless of the page scrolls
-        static: false
-        # Where on the screen the consent popup should display
-        position: bottom-left
-        # URL to your site's cookie policy
-        policyLink: 'https://www.cookiesandyou.com/'
+    # cookie_consent:
+    #     # The compliance type. Can be "info", "opt-in", or "opt-out"
+    #     type: info
+    #     # Theme of the popup. Can be "block", "edgeless", or "classic"
+    #     theme: edgeless
+    #     # Whether the popup should stay static regardless of the page scrolls
+    #     static: false
+    #     # Where on the screen the consent popup should display
+    #     position: bottom-left
+    #     # URL to your site's cookie policy
+    #     policyLink: 'https://www.cookiesandyou.com/'
     # Enable the lightGallery and Justified Gallery plugins
     gallery: true
     # Google Analytics plugin settings

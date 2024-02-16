@@ -31,7 +31,7 @@ Android-x86 2.2的ISO文件由Android-x86项目提供：https://www.android-x86.
 
 https://sourceforge.net/projects/android-x86/files/Release%202.2/
 
-下载文件：[android-x86-2.2-generic.iso](https://sourceforge.net/projects/android-x86/files/Release 2.2/android-x86-2.2-generic.iso/download)
+下载文件：[android-x86-2.2-generic.iso](https://sourceforge.net/projects/android-x86/files/Release%202.2/android-x86-2.2-generic.iso/download)
 
 ### 在VMware中创建虚拟机
 

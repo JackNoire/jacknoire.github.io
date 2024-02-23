@@ -43,6 +43,7 @@ setTimeout(function () {
         let IabHelper = Java.use("com.nflystudio.InfinitePrivateEye2.util.IabHelper");
         IabHelper["logError"].implementation = function (msg) {
             console.log(`IabHelper.logError is called: msg=${msg}`);
+            console.log(Java.use("android.util.Log").getStackTraceString(Java.use("java.lang.Exception").$new()));
             this["logError"](msg);
         };
     });
